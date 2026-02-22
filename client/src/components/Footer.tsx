@@ -89,13 +89,13 @@ export default function Footer() {
                   className="text-white font-bold text-lg leading-none"
                   style={{ fontFamily: "'Noto Serif JP', serif" }}
                 >
-                  匠建設
+                  サンプル
                 </div>
                 <div
                   className="text-[#F59E0B] text-[10px] tracking-widest uppercase"
                   style={{ fontFamily: "'Oswald', sans-serif" }}
                 >
-                  TAKUMI CONSTRUCTION
+                  SAMPLE CONSTRUCTION
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-white/40 text-xs" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
                 <MapPin className="w-3 h-3 text-[#F59E0B]" />
-                東京都千代田区大手町1-1-1 匠ビル8F
+                東京都
               </div>
               <div className="flex items-center gap-2 text-white/40 text-xs" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
                 <Phone className="w-3 h-3 text-[#F59E0B]" />
@@ -156,7 +156,7 @@ export default function Footer() {
             className="text-white/30 text-xs"
             style={{ fontFamily: "'Noto Sans JP', sans-serif" }}
           >
-            © 2024 株式会社 匠建設 All Rights Reserved.
+            © 2024 株式会社 サンプル建設 All Rights Reserved.
           </p>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-[#F59E0B]" />

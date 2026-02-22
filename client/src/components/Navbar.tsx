@@ -59,13 +59,13 @@ export default function Navbar() {
                 className="text-white font-bold text-lg leading-none"
                 style={{ fontFamily: "'Noto Serif JP', serif" }}
               >
-                匠建設
+                サンプル建設
               </div>
               <div
                 className="text-[#F59E0B] text-[10px] tracking-widest uppercase"
                 style={{ fontFamily: "'Oswald', sans-serif" }}
               >
-                TAKUMI CONSTRUCTION
+                SAMPLE CONSTRUCTION
               </div>
             </div>
           </a>

@@ -10,12 +10,12 @@ import { useRef, useEffect, useState } from "react";
 const TEAM_IMAGE = "https://private-us-east-1.manuscdn.com/sessionFile/uYWRewbpM9swZZu7j0aFD6/sandbox/J6SzUdvDSFUTVHLZi4Q3zm-img-5_1771498602000_na1fn_YWJvdXQtdGVhbQ.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvdVlXUmV3YnBNOXN3Wlp1N2owYUZENi9zYW5kYm94L0o2U3pVZHZEU0ZVVFZITFppNFEzem0taW1nLTVfMTc3MTQ5ODYwMjAwMF9uYTFmbl9ZV0p2ZFhRdGRHVmhiUS5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fW0vTT7nLBgzuOrImSbG1ksalfatgGgRZqdjJ6H6jqnRd33OBRWfIjisGezPjZ1qNfZQi7Gqf-TBaRTMdS9XUAUrYNCJuzozz~JfOpw-h-mOHc4dbYP5se-yek73cJxAGHhV0NopRZn2ROYOofHgB-gYepNucg~v-olR2mYDHqlUqKolxQG22neF66PFYH1odbHuAqmLbBmEtdH88HHLzzisOeAE70i2Y6kbAerd2oZBeka6kUdhspdZja3BRLEpkOObD4im1Q8tPA4rUbagua82m94HAt5xJ7JIMaOB9j~ZmycyzNvMogNSKdwmKkJq1ET~ZdWzP2OOcWxYOAGJcQ__";
 
 const companyInfo = [
-  { label: "会社名", value: "株式会社 匠建設" },
+  { label: "会社名", value: "株式会社 サンプル建設" },
   { label: "設立", value: "1972年（昭和47年）4月" },
   { label: "代表取締役", value: "山田 匠（やまだ たくみ）" },
   { label: "資本金", value: "5,000万円" },
   { label: "従業員数", value: "280名（2024年4月現在）" },
-  { label: "本社所在地", value: "東京都千代田区大手町1-1-1 匠ビル8F" },
+  { label: "本社所在地", value: "東京都" },
   { label: "営業エリア", value: "関東・東北・北海道・中部・近畿" },
   { label: "許可番号", value: "国土交通大臣許可（特-〇〇）第〇〇〇〇〇号" },
 ];
