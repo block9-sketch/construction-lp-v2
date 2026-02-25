@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 20
       - run: npm install --legacy-peer-deps
-      - run: npx vite build --base ./
-      - run: ls -la && ls -la dist/ || echo "no dist" && find . -name "index.html" 2>/dev/null
+      - run: npx vite build --base /construction-lp-v2/
+      - run: find . -name "index.html" 2>/dev/null
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/public
