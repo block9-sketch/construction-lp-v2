@@ -31,10 +31,4 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
-        id: deployment
-```
-
-追加した1行：
-```
-- run: cp dist/public/index.html dist/public/404.html
+      - uses: act
